@@ -11,6 +11,8 @@ Install all dependencies
 npm run install
 ```
 
+*you must choose one, running bailey or whatsapp-web-js*
+
 running whatsapp bot (bailey)
 ```sh
 npm run start-bailey
@@ -20,4 +22,3 @@ running whatsapp bot (whatsapp-web-js)
 ```sh
 npm run start-wwebjs
 ```
-
