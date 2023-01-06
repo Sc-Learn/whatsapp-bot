@@ -1,0 +1,14 @@
+2023/01/06-08:36:17.111 fdc87 Reusing MANIFEST /home/supernova/study/coding/nodejs/whatsapp-bot/bot-whatsapp-web-js-service/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/06-08:36:17.111 fdc87 Recovering log #59
+2023/01/06-08:36:17.236 fdc87 Reusing old log /home/supernova/study/coding/nodejs/whatsapp-bot/bot-whatsapp-web-js-service/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000059.log 
+2023/01/06-08:36:28.930 fdc8b Level-0 table #65: started
+2023/01/06-08:36:29.041 fdc8b Level-0 table #65: 1339185 bytes OK
+2023/01/06-08:36:29.094 fdc8b Delete type=0 #59
+2023/01/06-08:36:29.102 fdc8b Compacting 1@1 + 2@2 files
+2023/01/06-08:36:29.324 fdc8b Generated table #66@1: 30098 keys, 2255729 bytes
+2023/01/06-08:36:29.393 fdc8b Generated table #67@1: 45306 keys, 1780504 bytes
+2023/01/06-08:36:29.393 fdc8b Compacted 1@1 + 2@2 files => 4036233 bytes
+2023/01/06-08:36:29.394 fdc8b compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/01/06-08:36:29.394 fdc8b Delete type=2 #61
+2023/01/06-08:36:29.394 fdc8b Delete type=2 #62
+2023/01/06-08:36:29.394 fdc8b Delete type=2 #65

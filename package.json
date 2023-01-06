@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "npm install --prefix bailey && npm install --prefix regis-server && npm install --prefix whatsapp-web-js",
-    "start-bailey": "npm start --prefix regis-server & npm start --prefix bailey",
-    "start-wwebjs": "npm start --prefix regis-server & npm start --prefix whatsapp-web-js"
+    "install": "npm install --prefix bot-bailey-service && npm install --prefix regis-service && npm install --prefix bot-whatsapp-web-js-service && npm install --prefix bot-master-service",
+    "start": "npm start --prefix regis-service & npm start --prefix bot-master-service & npm start --prefix bot-whatsapp-web-js-service & npm start --prefix bot-bailey-service"
   },
   "keywords": [],
   "author": "",

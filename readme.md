@@ -11,25 +11,25 @@ Install all dependencies
 npm run install
 ```
 
-*you must choose one, running bailey or whatsapp-web-js*
-
-running whatsapp bot (bailey)
 ```sh
-npm run start-bailey
+cd regis-service && npm start && cd ../
+cd bot-master-service && npm start && cd ../
+
+cd bot-whatsapp-web-js-service && npm start && cd ../
+# if there is no session, you must scan QR code to authentication
+
+cd bot-bailey-service && npm start && cd ../
 # if there is no session, you must scan QR code to authentication
 ```
 
-running whatsapp bot (whatsapp-web-js)
+OR
+
 ```sh
-npm run start-wwebjs
-# if there is no session, you must scan QR code to authentication
+npm run start # in root folder
 ```
+
 
 ## How To Use
 **Using HTTP**
-1. Hit endpoint `http://localhost:3000/registration/axios`, with request body `phoneNumber: <YourPhoneNumber>`
-2. Expected Will get whatsapp message
-
-**Using Kafka**
-1. Hit endpoint `http://localhost:3000/registration/kafka`, with request body `phoneNumber: <YourPhoneNumber>`
+1. Hit endpoint `http://localhost:3000/registration`, with request body `phoneNumber: <YourPhoneNumber>`
 2. Expected Will get whatsapp message

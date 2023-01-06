@@ -1,0 +1,19 @@
+{
+  "name": "bot-whatsapp-web-js-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-rdkafka": "^2.14.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.4"
+  }
+}
